@@ -3,49 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me - Sannman</title>
+  <title>Sannman Prabhu | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Hey, I'm <span class="highlight">Sannman</span> 👋</h1>
-      <p class="tagline">AI/ML Student | Tech Enthusiast | Future Coder Extraordinaire</p>
-    </header>
+  <!-- ===== Header ===== -->
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+    </nav>
+  </header>
 
-    <section class="about">
-      <img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="Profile Pic" class="profile-pic">
-      <div>
-        <h2>About Me</h2>
-        <p>
-          I'm an AIML student passionate about building AI-powered projects, competitive coding,
-          and exploring the world of tech. I love solving problems, experimenting with code, and
-          learning every single day.
-        </p>
+  <main class="container">
+  <!-- ===== Hero ===== -->
+  <section class="hero reveal" id="home">
+    <h1>Hey, I'm Sannman 👋</h1>
+    <h3>AIML Student & Tech Enthusiast</h3>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <p>
+      I'm a B.Sc (Hons.) student in Artificial Intelligence & Machine Learning at HBSU.  
+      Super curious about AI, coding, and building cool stuff that actually matters.  
+      Always leveling up my skills and chasing big goals 🚀.
+    </p>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <div class="card-container">
+      <div class="card">Python</div>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education" class="reveal">
+    <h2>Education</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>HBSU</h3>
+        <p>B.Sc (Hons.) in Artificial Intelligence & Machine Learning</p>
       </div>
-    </section>
+      <div class="card">
+        <h3>Elphinstone</h3>
+        <p>12th (Higher Secondary)</p>
+      </div>
+      <div class="card">
+        <h3>CKT</h3>
+        <p>10th (Secondary School)</p>
+      </div>
+    </div>
+  </section>
 
-    <section class="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>🚗 Line Following Car:</strong> IR sensors + L293D motor driver magic.</li>
-        <li><strong>📈 Stock Analysis System:</strong> SQL + Python for efficient technical analysis.</li>
-        <li><strong>💻 Competitive Coding:</strong> Preparing for ICPC, LeetCode & more.</li>
-      </ul>
-    </section>
+  <!-- Footer -->
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://www.linkedin.com/in/sannman" target="_blank">LinkedIn</a>
+    <a href="https://instagram.com/sannman.ai" target="_blank">Instagram</a>
+    <a href="https://github.com/Sannman1" target="_blank">GitHub</a>
+    <a href="mailto:prabhusanman2@gmail.com">Email</a>
+  </footer>
+  </main>
 
-    <section class="socials">
-      <h2>Connect with me</h2>
-      <p>
-        <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
-        <a href="https://instagram.com/sannman.ai" target="_blank">Instagram</a> |
-        <a href="mailto:youremail@example.com">Email</a>
-      </p>
-    </section>
-
-    <footer>
-      <p>Made with ❤️ by Sannman</p>
-    </footer>
-  </div>
+  <script src="script.js"></script>
 </body>
 </html>
