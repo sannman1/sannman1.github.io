@@ -1,0 +1,115 @@
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+.container {
+  width: 85%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.highlight {
+  color: #58a6ff;
+}
+
+.tagline {
+  color: #8b949e;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about img.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #58a6ff;
+}
+
+.about h2 {
+  color: #58a6ff;
+  margin-bottom: 0.5rem;
+}
+
+/* Projects */
+.projects {
+  margin-bottom: 2rem;
+}
+
+.projects h2 {
+  color: #58a6ff;
+  margin-bottom: 0.5rem;
+}
+
+.projects ul {
+  list-style: none;
+}
+
+.projects li {
+  margin: 0.5rem 0;
+  background: #161b22;
+  padding: 0.8rem;
+  border-radius: 10px;
+}
+
+/* Socials */
+.socials {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.socials a {
+  color: #58a6ff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #8b949e;
+  border-top: 1px solid #21262d;
+  padding-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+}
